@@ -1,0 +1,13 @@
+{
+  "name": "forseen",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "A personal workspace, starting with feedback calls.",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env backend/server.js",
+    "start": "node --env-file-if-exists=.env backend/server.js",
+    "test": "node --test tests/*.test.js"
+  }
+}

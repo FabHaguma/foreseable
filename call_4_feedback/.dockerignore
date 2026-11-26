@@ -1,0 +1,8 @@
+*
+!package.json
+!backend/
+!backend/**
+!frontend/
+!frontend/**
+!nginx.conf
+frontend/.qa/
